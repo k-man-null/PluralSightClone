@@ -1,0 +1,236 @@
+@font-face {
+    font-family: PS TT;
+    src: url('https://fonts.pluralsight.com/ps-tt-commons/v1/ps-tt-commons-variable-roman.woff2');
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: PS TT;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color:#0d0f12;
+    height: 100vh;
+    align-items: center;
+    font-family: inherit;
+}
+
+.signin {
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.or {
+    width: 80%;
+    align-self: center;
+}
+.logo {
+    padding-bottom: 7vh;
+    text-align: center;
+}
+
+.logo > img {
+    max-width: 80%;
+    align-self: center;
+}
+
+label {
+    color: white;
+}
+label, input {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+input {
+    background-color:transparent;
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 2px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    color: hsla(0,0%,100%,.95);
+}
+
+button {
+    background-color: #0074ab;
+    padding:10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+button {
+    border: none;
+}
+.links > p > a , #create-account > a {
+    text-decoration: none;
+}
+#create-account > a {
+    color: white;
+}
+.links {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.links > p  {
+    margin-bottom: 24px;
+}
+
+.links > p > a {
+    color: #0074ab;
+}
+
+.links > p > a:hover {
+    text-decoration: underline;
+}
+
+
+#create-account {
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 3vh auto;
+    text-align: center;
+    background-color:#2d3138;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.bar {
+    border: none;
+    background-color:#313335;
+    height: 1px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top:8vh;
+    text-align: center;
+    color: #9c9d9e;
+    font-size: 13px;
+}
+
+
+#ToC {
+    margin-top: 10px;
+}
+
+#ToC > a {
+    color: #9c9d9e;
+}
+
+#ToC > a:hover{
+    color: #0074ab;
+}
+
+#help {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+    text-shadow: none;
+
+}
+
+
+.container {
+    display: flex;
+}
+.left {
+    width: 50vw;
+}
+.right {
+    background-image: url("./bg-gtm-2020.png");
+    background-color: black;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+#freetrial {
+    text-decoration: none;
+    color: white;
+    padding: 12px 80px;
+    font-size: 14px;
+    border-radius: 2px;  
+    background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+}
+
+.banner-title {
+    margin: auto;
+    width: 100%;
+}
+
+.banner-title > a {
+    margin-left: 40px;
+
+}
+
+.banner-title > img {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: max-content;
+}
+#slogan {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    max-width: 150px;
+}
+@media only screen and (max-width: 768px) {
+    .right {
+        display: none;
+    }
+    .left {
+        width: 100vw;
+    }  
+    .or {
+        width: 100vw;
+    }
+}
+
+@media only screen and (min-width: 1368px) {
+    .left {
+        flex: 4;
+    }
+    
+    .right {
+        flex: 6;
+    }
+    
+   
+}
