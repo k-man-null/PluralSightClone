@@ -6,4 +6,4 @@ This was a challenge posed by my mentor ![Mary Obiagba](https://github.com/Ifyco
 3. The help icon at the bottom needed to be acessible by tabs.
 
 # Live Demo
-Have a look at the ![live](https://dreamy-goldberg-06ed6d.netlify.app) demo.
+Have a look at the [live](https://dreamy-goldberg-06ed6d.netlify.app) demo.
